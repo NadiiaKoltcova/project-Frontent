@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Магазин суші</title>
+    <link rel="icon" type="image/png" href="img/logo/iconSuch.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="form">
+        <div class="delivery-info">
+            <img src="img/logo/Icon-logo.png" width="92" alt="Суши и пицца">
+            <div>
+                <h1 class="gradient">Доставка ролів</h1>
+                <p class="lead">Оперативно і смачно</p>
+            </div>
+        </div>
+        <!-- Dark Mode Toggle Button -->
+        <div class="theme-toggle">
+            <input type="checkbox" class="theme-toggle-input" id="darkModeToggle"/>
+            <label class="theme-toggle-label" for="darkModeToggle">
+                <span class="theme-toggle-icon sun">☀️</span>
+                <span class="theme-toggle-icon moon">🌙</span>
+            </label>
+        </div>
+
+    </div>
+</header>
+
+
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row" id="products-container">
+                
+            </div>
+        </div>
+        <div class="col-md-4">
+
+            <!-- Корзина -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h4 class="card-title">Ваше замовлення</h4>
+                    <div data-cart-empty class="alert alert-secondary" role="alert">
+                        Кошик пустий
+                    </div>
+                    <!-- cart-wrapper -->
+                    <div class="cart-wrapper">
+
+                    </div>
+                    <!-- // cart-wrapper -->
+
+                    <!-- Ціна замовлення-->
+                    <div class="cart-total">
+                        <p data-cart-delivery class="none"><span class="h5">Доставка:</span> <span class="delivery-cost ">100 грн</span>
+                        <br> <span class="small">Безкоштовно при замовленні від 100 грн </span>
+                        </p>
+                        <p><span class="h5">Всього:</span> <span class="total-price">0</span>
+                            <span class="grn">грн</span></p>
+                    </div>
+                    <!-- // Ціна замовлення -->
+
+                </div>
+
+                <!-- Оформити замовлення -->
+                <div id="order-form" class="card-body border-top none">
+                    <h4 class="card-title">Оформити замовлення</h4>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Ваш номер телефона">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Замовити</button>
+                    </form>
+                </div>
+                <!-- // Оформити замовлення -->
+
+            </div>
+            <!-- // Корзина -->
+
+
+        </div>
+    </div>
+</div>
+<script src="./js/RenderProducrts.js"></script>
+
+<script src="./js/CartPrice.js"></script>
+
+<script src="./js/toggleTheme.js"></script>
+<script src="./js/toggleCartStatus.js"></script>
+<script src="./js/counter.js"></script>
+<script src="./js/cart.js"></script>
+
+</body>
+
+</html>
