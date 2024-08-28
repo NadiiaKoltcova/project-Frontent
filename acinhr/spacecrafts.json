@@ -1,0 +1,104 @@
+
+[
+  {
+    "name": "Orion",
+    "location": {
+      "x": 123.45,
+      "y": 678.90,
+      "z": 234.56
+    },
+    "fuelLevel": 85,
+    "missionStatus": "Operational"
+  },
+  {
+    "name": "Apollo",
+    "location": {
+      "x": 98.76,
+      "y": 543.21,
+      "z": 678.90
+    },
+    "fuelLevel": 60,
+    "missionStatus": "Standby"
+  },
+  {
+    "name": "Voyager",
+    "location": {
+      "x": 345.67,
+      "y": 890.12,
+      "z": 567.89
+    },
+    "fuelLevel": 30,
+    "missionStatus": "Critical"
+  },
+  {
+    "name": "Pioneer",
+    "location": {
+      "x": 567.89,
+      "y": 234.56,
+      "z": 123.45
+    },
+    "fuelLevel": 50,
+    "missionStatus": "Operational"
+  },
+  {
+    "name": "Curiosity",
+    "location": {
+      "x": 678.90,
+      "y": 345.67,
+      "z": 890.12
+    },
+    "fuelLevel": 25,
+    "missionStatus": "Critical"
+  },
+  {
+    "name": "Enterprise",
+    "location": {
+      "x": 234.56,
+      "y": 123.45,
+      "z": 678.90
+    },
+    "fuelLevel": 95,
+    "missionStatus": "Operational"
+  },
+  {
+    "name": "Discovery",
+    "location": {
+      "x": 789.01,
+      "y": 456.78,
+      "z": 345.67
+    },
+    "fuelLevel": 40,
+    "missionStatus": "Standby"
+  },
+  {
+    "name": "Endeavour",
+    "location": {
+      "x": 890.12,
+      "y": 567.89,
+      "z": 456.78
+    },
+    "fuelLevel": 70,
+    "missionStatus": "Operational"
+  },
+  {
+    "name": "Atlantis",
+    "location": {
+      "x": 901.23,
+      "y": 678.90,
+      "z": 567.89
+    },
+    "fuelLevel": 20,
+    "missionStatus": "Critical"
+  },
+  {
+    "name": "Galileo",
+    "location": {
+      "x": 101.23,
+      "y": 234.56,
+      "z": 678.90
+    },
+    "fuelLevel": 55,
+    "missionStatus": "Standby"
+  }
+]
+
